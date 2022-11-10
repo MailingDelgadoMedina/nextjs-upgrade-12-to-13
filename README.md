@@ -51,6 +51,16 @@ Create a file named `page.tsx` in the `app` folder.
 Delete from the `pages` folder the `index.tsx` file.
 And automatically will create a new file named `layout.tsx` in the `app` folder.
 
+## Step 6:
+From `_app.tsx` located on the `pages` folder  copy the following line:
+
+```
+import '../styles/globals.css'
+```
+
+Then paste it on the top of the `layout.tsx` file.
+
+
 ----------------------------------------------
 
 ## Next.js + Tailwind CSS Example
