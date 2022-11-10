@@ -60,6 +60,9 @@ import '../styles/globals.css'
 
 Then paste it on the top of the `layout.tsx` file.
 
+## Step 7:
+To make a component be shared through all the pages, import the component to the `layout.tsx` file. For example: a navbar.
+
 
 ----------------------------------------------
 
