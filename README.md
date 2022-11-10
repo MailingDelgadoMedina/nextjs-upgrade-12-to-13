@@ -1,6 +1,6 @@
 # Upgrading Next 12 to 13
 
-# Step 1: 
+## Step 1: 
 Create a folder named `app` in the root of your project.
 
 ## Step 2:
