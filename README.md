@@ -63,6 +63,10 @@ Then paste it on the top of the `layout.tsx` file.
 ## Step 7:
 To make a component be shared through all the pages, import the component to the `layout.tsx` file. For example: a navbar.
 
+(Heads up when fetching data from an api make sure to create a file in the root of the project and name it `typings.d.ts` and define the type of the data that you are fetching from the api. For example: `export type Post = { id: number; title: string; body: string; };`)
+
+
+
 
 ----------------------------------------------
 
