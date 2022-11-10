@@ -43,7 +43,13 @@ module.exports = {
 - If is not added automatically, add the following to the tailwind.config.js add it manually:
 
  ` './app/**/*.{js,ts,jsx,tsx}',
-    `
+
+## Step 4:
+Create a file named `page.tsx` in the `app` folder.
+
+## Step 5:
+Delete from the `pages` folder the `index.tsx` file.
+And automatically will create a new file named `layout.tsx` in the `app` folder.
 
 
 
