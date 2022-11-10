@@ -51,7 +51,7 @@ Create a file named `page.tsx` in the `app` folder.
 Delete from the `pages` folder the `index.tsx` file.
 And automatically will create a new file named `layout.tsx` in the `app` folder.
 
-
+----------------------------------------------
 
 ## Next.js + Tailwind CSS Example
 
