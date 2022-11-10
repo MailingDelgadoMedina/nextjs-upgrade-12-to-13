@@ -1,6 +1,10 @@
 # Upgrading Next 12 to 13
-## Step 1:
-I added the following to my `next.config.js`:
+
+# Step 1: 
+Create a folder named `app` in the root of your project.
+
+## Step 2:
+Add the following to the `next.config.js`:
 
 
 /** @type {import('next').NextConfig} */
@@ -13,7 +17,7 @@ module.exports = {
 ```
 }
  
- ## Step 2:
+ ## Step 3:
 
  Stop the server by `Ctrl + C` and run `npm run dev` 
 
