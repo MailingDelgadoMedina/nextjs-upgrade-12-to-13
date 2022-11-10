@@ -19,13 +19,13 @@ module.exports = {
 
  and automatically the on the tailwind.config.js file it will be added the following:
 
- /** @type {import('tailwindcss').Config} **/
+ 
 module.exports = {
   content: [
     './pages/**/*.{js,ts,jsx,tsx}',
     './components/**/*.{js,ts,jsx,tsx}',
 
-    ```
+    ```bash
     './app/**/*.{js,ts,jsx,tsx}',
     ```
 
@@ -36,11 +36,10 @@ module.exports = {
   plugins: [],
 }
 
-* If is not added automatically, add the following to the `tailwind.config.js` add it manually:
+If is not added automatically, add the following to the tailwind.config.js add it manually:
 
- ```js
+ ```bash
    './app/**/*.{js,ts,jsx,tsx}',
-  
     ```
 
 
