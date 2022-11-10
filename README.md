@@ -36,7 +36,7 @@ module.exports = {
   plugins: [],
 }
 
-*If is not added automatically, add the following to the `tailwind.config.js` add it manually:*
+*If is not added automatically, add the following to the `tailwind.config.js` add it manually:
 
  ```
    './app/**/*.{js,ts,jsx,tsx}',
