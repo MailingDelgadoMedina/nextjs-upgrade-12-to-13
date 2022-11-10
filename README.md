@@ -28,7 +28,6 @@ module.exports = {
     ```bash
     './app/**/*.{js,ts,jsx,tsx}',
     ```
-
   ],
   theme: {
     extend: {},
@@ -36,11 +35,11 @@ module.exports = {
   plugins: [],
 }
 
-If is not added automatically, add the following to the tailwind.config.js add it manually:
 
- ```bash
-   './app/**/*.{js,ts,jsx,tsx}',
-    ```
+- If is not added automatically, add the following to the tailwind.config.js add it manually:
+
+ ` './app/**/*.{js,ts,jsx,tsx}',
+    `
 
 
 
