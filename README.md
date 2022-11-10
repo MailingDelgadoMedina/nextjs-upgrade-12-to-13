@@ -15,11 +15,11 @@ module.exports = {
  
  ## Step 2:
 
- Stop the server by `Ctrl + C` and run ```npm run dev``` 
+ Stop the server by `Ctrl + C` and run `npm run dev` 
 
  and automatically the on the tailwind.config.js file it will be added the following:
 
- /** @type {import('tailwindcss').Config} */
+ /** @type {import('tailwindcss').Config} **/
 module.exports = {
   content: [
     './pages/**/*.{js,ts,jsx,tsx}',
@@ -27,7 +27,6 @@ module.exports = {
 
     ```
     './app/**/*.{js,ts,jsx,tsx}',
-
     ```
 
   ],
@@ -37,11 +36,10 @@ module.exports = {
   plugins: [],
 }
 
-*If is not added automatically, add the following to the tailwind.config.js add it manually:*
+* If is not added automatically, add the following to the `tailwind.config.js` add it manually: *
 
- ```
-    './app/**/*.{js,ts,jsx,tsx}',
-    
+ ```js
+   './app/**/*.{js,ts,jsx,tsx}',
     ```
 
 
